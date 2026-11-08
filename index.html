@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#9b65d9" />
+  <title>A Little Apology ♡</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sparkles" aria-hidden="true"></div>
+  <main class="story" aria-live="polite">
+    <section class="screen active" id="screen-0">
+      <div class="hearts">♡　✦　♡　✧</div>
+      <h1>Tripathi ji ♡</h1>
+      <p class="subtitle">I have something<br>important to say...</p>
+      <div class="art teddy">🧸<span class="heart">💗</span></div>
+      <button class="text-button next">Tap to continue </button>
+    </section>
+
+    <section class="screen" id="screen-1">
+      <div class="hearts">♡　✦　♡</div>
+      <h1>I Know<br>I Hurt You...</h1>
+      <div class="doodle">♡</div>
+      <div class="art hug">🧑🏻‍🦱　🧸</div>
+      <p class="subtitle">And I am genuinely sorry.</p>
+      <button class="text-button next">Tap to continue </button>
+    </section>
+
+    <section class="screen" id="screen-2">
+      <div class="hearts">✧　♡　✦</div>
+      <h1>You Mean<br>Everything To Me ♡</h1>
+      <div class="art girl">🐻‍❄️</div>
+      <p class="subtitle">You are important to me,<br>more than words can explain.</p>
+      <button class="text-button next">Tap to continue </button>
+    </section>
+
+    <section class="screen" id="screen-3">
+      <div class="hearts">♡　✧　♡</div>
+      <h1>I'm Truly<br>Sorry...</h1>
+      <div class="doodle">♡</div>
+      <div class="art panda">🐼<span class="heart">💗</span></div>
+      <button class="pill-button" id="open-envelope">✉️　Tap to open</button>
+    </section>
+
+    <section class="screen" id="screen-4">
+      <div class="hearts">✦　♡　✧</div>
+      <h1>A little note for you</h1>
+      <button class="envelope" id="envelope" aria-label="Open the envelope">
+        <span class="flap"></span><span class="seal">♡</span>
+      </button>
+      <p class="subtitle" id="envelope-hint">Tap the envelope to open</p>
+    </section>
+
+    <section class="screen letter-screen" id="screen-5">
+      <div class="letter">
+        <div class="letter-heart">♡</div>
+        <h2>My Dear,</h2>
+        <p>I’m really sorry for whatever I did. I never wanted to hurt you or make you feel bad.</p>
+        <p>You mean so much to me, and I hope you can understand how genuinely sorry I am.</p>
+        <p>Please take your time. I just wanted you to know that I care about you and our bond.</p>
+        <div class="signoff">With care,<br>Always ♡</div>
+      </div>
+      <button class="pill-button next">Continue ♡</button>
+    </section>
+
+    <section class="screen memories-screen" id="screen-6">
+      <div class="hearts">♡　✦　♡</div>
+      <h1>Our Memories ♡</h1>
+      <p class="subtitle">Some moments with you...</p>
+      <div class="memory-grid">
+        <img src="assets/memories/memory1.jpg" alt="Our memory 1" onerror="this.classList.add('missing');this.alt='Add memory1.jpg';">
+        <img src="assets/memories/memory2.jpg" alt="Our memory 2" onerror="this.classList.add('missing');this.alt='Add memory2.jpg';">
+        <img src="assets/memories/memory3.jpg" alt="Our memory 3" onerror="this.classList.add('missing');this.alt='Add memory3.jpg';">
+        <img src="assets/memories/memory4.jpg" alt="Our memory 4" onerror="this.classList.add('missing');this.alt='Add memory4.jpg';">
+        <img src="assets/memories/memory5.jpg" alt="Our memory 5" onerror="this.classList.add('missing');this.alt='Add memory5.jpg';">
+      </div>
+      <p class="memory-caption">These moments mean a lot to me ♡</p>
+      <button class="text-button next">One last thing ↓</button>
+    </section>
+
+    <section class="screen final-screen" id="screen-7">
+      <div class="hearts">♡　✧　♡</div>
+      <h1>Will you<br>forgive me? ♡</h1>
+      <div class="art final-art">🧸💗🐻</div>
+      <button class="pill-button" id="yes-button">Yes ♡</button>
+      <button class="outline-button" id="maybe-button">No I Won't..😢</button>
+      <p class="final-message" id="final-message">Your feelings matter. Take your time. ♡</p>
+    </section>
+
+    <div class="progress" id="progress">1 / 8</div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
